@@ -1,25 +1,11 @@
-## **Cybersecurity Labs**
+## **Dynamic Loader/Leaker**
 
-This is the starting point for my cybersecurity labs. So far, it includes 2 labs, with more projects to come as I continue building out the environment.
+**Task 7**
 
-**Table of Contents**
+This task demonstrates potential vulnerabilities when using shared libraries or dynamic linking. The four examples below show how a dynamically linked program can behave under different conditions:
+1. Running the program as a normal user (program with regular permissions) outputs the default/original environment variable value: "I am not sleeping".
+2. When the program is Set-UID, the linking is successful and a normal user is able to run the linked program; this executes sleep().
+3. When running as the root account while the program is Set-UID and re-exporting the LD_PRELOAD environment variable, the sleep() call is again successful.
+4. In the last condition, the owner of myprog is Sally. As a normal user while the program is Set-UID, I am still able to run sleep().
 
-1\. [Linux Command Line and Security Basics](https://github.com/nicohaines/Cybersecurity-Home-Lab/blob/26e14e6c90affbc979c1595e14b1c53793c64d33/Linux%20Command%20Line%20and%20Security%20Basics.md)
-
-* *This repository demonstrates an understanding of Linux command-line fundamentals through tasks involving system updates/upgrades, user management, group management, and permissions including Access Control Lists (ACLs).*
-
-2\. [Environment Variable and Set-UID Attack Basics](https://github.com/nicohaines/Cybersecurity-Home-Lab/blob/26e14e6c90affbc979c1595e14b1c53793c64d33/Linux%20Command%20Line%20and%20Security%20Basics.md)
-
-* *This repository demonstrates my understanding of various vulnerabilities, including those related to environment variables, Set-UID programs, capability leaking, dynamic loaders/linkers, and securely invoked external programs. Each example includes accompanying documentation with further explanations.*
-
-* <u>***DIRECTORY:***</u>
-
-* [Environment Variables (Task 1-4)](https://github.com/nicohaines/Cybersecurity-Home-Lab/blob/26e14e6c90affbc979c1595e14b1c53793c64d33/Linux%20Command%20Line%20and%20Security%20Basics.md)
-
-* [Set-UID (Task 5-6)](https://github.com/nicohaines/Cybersecurity-Home-Lab/blob/26e14e6c90affbc979c1595e14b1c53793c64d33/Linux%20Command%20Line%20and%20Security%20Basics.md)
-
-* [Dynamic loader/leaker(Task 7)](https://github.com/nicohaines/Cybersecurity-Home-Lab/blob/26e14e6c90affbc979c1595e14b1c53793c64d33/Linux%20Command%20Line%20and%20Security%20Basics.md)
-
-* [Securely Invoke External Programs (Task 8)](https://github.com/nicohaines/Cybersecurity-Home-Lab/blob/26e14e6c90affbc979c1595e14b1c53793c64d33/Linux%20Command%20Line%20and%20Security%20Basics.md)
-
-* [Capability Leaking (Task 9)](https://github.com/nicohaines/Cybersecurity-Home-Lab/blob/26e14e6c90affbc979c1595e14b1c53793c64d33/Linux%20Command%20Line%20and%20Security%20Basics.md)
+Altogether, these outcomes imply that if the program is Set-UID and dynamically linked, any user may be able to influence or trigger the dynamically linked behavior.

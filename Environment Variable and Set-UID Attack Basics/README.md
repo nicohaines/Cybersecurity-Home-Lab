@@ -11,7 +11,7 @@ This repository demonstrates my understanding of various vulnerabilities, includ
 
 * [Set-UID (Task 5-6)](https://github.com/nicohaines/Cybersecurity-Home-Lab/blob/f7efd780727fac4bf3bfc527dac4f342a27dca60/Environment%20Variable%20and%20Set-UID%20Attack%20Basics/Set-UID%20(Task%205-6).md)
 
-* [Dynamic loader/leaker(Task 7)](https://github.com/nicohaines/Cybersecurity-Home-Lab/blob/f7efd780727fac4bf3bfc527dac4f342a27dca60/Environment%20Variable%20and%20Set-UID%20Attack%20Basics/Dynamic%20loader%3Aleaker(Task%207).md)
+* [Dynamic Loader/Leaker(Task 7)](https://github.com/nicohaines/Cybersecurity-Home-Lab/blob/f7efd780727fac4bf3bfc527dac4f342a27dca60/Environment%20Variable%20and%20Set-UID%20Attack%20Basics/Dynamic%20loader%3Aleaker(Task%207).md)
 
 * [Securely Invoke External Programs (Task 8)](https://github.com/nicohaines/Cybersecurity-Home-Lab/blob/f7efd780727fac4bf3bfc527dac4f342a27dca60/Environment%20Variable%20and%20Set-UID%20Attack%20Basics/Securely%20Invoke%20External%20Programs%20(Task%208).md)
 

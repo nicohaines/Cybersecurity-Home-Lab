@@ -1,25 +1,17 @@
-## **Cybersecurity Labs**
+## **Environment Variables**
 
-This is the starting point for my cybersecurity labs. So far, it includes 2 labs, with more projects to come as I continue building out the environment.
+**Task 1:**
 
-**Table of Contents**
+Demonstrates the usage of the printenv and env commands, and how to set and unset environment variables.
 
-1\. [Linux Command Line and Security Basics](https://github.com/nicohaines/Cybersecurity-Home-Lab/blob/26e14e6c90affbc979c1595e14b1c53793c64d33/Linux%20Command%20Line%20and%20Security%20Basics.md)
+**Task 2:**
 
-* *This repository demonstrates an understanding of Linux command-line fundamentals through tasks involving system updates/upgrades, user management, group management, and permissions including Access Control Lists (ACLs).*
+When using fork() to duplicate a process, the child inherits all of the parent’s environment variables. In the example below I use diff to compare the environment variables of the original process (parent) and the duplicate (child). As you can see, there is no difference because the child inherited all of the parent’s variables.
 
-2\. [Environment Variable and Set-UID Attack Basics](https://github.com/nicohaines/Cybersecurity-Home-Lab/blob/26e14e6c90affbc979c1595e14b1c53793c64d33/Linux%20Command%20Line%20and%20Security%20Basics.md)
+**Task 3:**
 
-* *This repository demonstrates my understanding of various vulnerabilities, including those related to environment variables, Set-UID programs, capability leaking, dynamic loaders/linkers, and securely invoked external programs. Each example includes accompanying documentation with further explanations.*
+This task shows two examples of process environment variable lists. In the first, the third argument to execve() is NULL. When the third argument of execve() is NULL, the new process has no environment variables. When the third argument is the previously identified environ reference, the program lists all of its related environment variables.
 
-* <u>***DIRECTORY:***</u>
+**Task 4:**
 
-* [Environment Variables (Task 1-4)](https://github.com/nicohaines/Cybersecurity-Home-Lab/blob/26e14e6c90affbc979c1595e14b1c53793c64d33/Linux%20Command%20Line%20and%20Security%20Basics.md)
-
-* [Set-UID (Task 5-6)](https://github.com/nicohaines/Cybersecurity-Home-Lab/blob/26e14e6c90affbc979c1595e14b1c53793c64d33/Linux%20Command%20Line%20and%20Security%20Basics.md)
-
-* [Dynamic loader/leaker(Task 7)](https://github.com/nicohaines/Cybersecurity-Home-Lab/blob/26e14e6c90affbc979c1595e14b1c53793c64d33/Linux%20Command%20Line%20and%20Security%20Basics.md)
-
-* [Securely Invoke External Programs (Task 8)](https://github.com/nicohaines/Cybersecurity-Home-Lab/blob/26e14e6c90affbc979c1595e14b1c53793c64d33/Linux%20Command%20Line%20and%20Security%20Basics.md)
-
-* [Capability Leaking (Task 9)](https://github.com/nicohaines/Cybersecurity-Home-Lab/blob/26e14e6c90affbc979c1595e14b1c53793c64d33/Linux%20Command%20Line%20and%20Security%20Basics.md)
+This task demonstrates a flaw of system() compared to execve(): system() invokes /bin/sh, and environment variables (for example PATH) are passed to that shell process, which can cause unexpected behavior or make execution dependent on the environment.
