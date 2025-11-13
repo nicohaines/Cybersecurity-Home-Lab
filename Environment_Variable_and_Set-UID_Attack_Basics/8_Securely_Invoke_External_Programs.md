@@ -8,7 +8,7 @@ This task compares how system() and execve() handle external program execution a
 
 1. system() hands a string to /bin/sh so it's risky if untrusted users find a way to manipulate or add their own malicious code.
 
-    In theory this can be abused in a Set-UID program, but my attempts did not succeed.
+    In theory this can be abused in a Set-UID program, but my attempts did not succeed. This could be due to a feature on Mac OS, possibly with 64-bit restrictions or safeguard.
 ![](Screenshots/28.png)
 
 
