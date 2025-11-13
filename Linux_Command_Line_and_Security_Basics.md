@@ -1,5 +1,6 @@
-**Nicolas Haines**  
-**Linux Command Line and Security Basics**
+## <h1>**Linux Command Line and Security Basics**</h1>
+
+[Click here to return to the Home Repository](README.md)
 
 ## **(1, 2 & 3\) Updating, Upgrading, and Rebooting the System**
 

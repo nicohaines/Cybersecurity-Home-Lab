@@ -1,6 +1,6 @@
 ## <h1>**Dynamic Loader/Leaker**</h1>
 
-[Click here to return to the Home Repository](Environment_Variable_and_Set-UID_Attack_Basics/README.md)
+[Click here to return to the Home Repository](README.md)
 
 ## **Task 7: The LD PRELOAD Environment Variable and Set-UID Programs**
 
@@ -12,4 +12,4 @@ This task demonstrates potential vulnerabilities when using shared libraries or 
 
 Altogether, these outcomes imply that if the program is Set-UID and dynamically linked, any user may be able to influence or trigger the dynamically linked behavior.
 
-[Click here to return to the Home Repository](Environment_Variable_and_Set-UID_Attack_Basics/README.md)
+[Click here to return to the Home Repository](README.md)
