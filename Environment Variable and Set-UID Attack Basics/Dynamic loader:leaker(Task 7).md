@@ -1,6 +1,6 @@
 ## <h1>**Dynamic Loader/Leaker**</h1>
 
-[Click here to return to the Home Repository](https://github.com/nicohaines/Cybersecurity-Home-Lab/blob/6c40208dbff8b486b290dc279e0788ebb6142c7a/Environment%20Variable%20and%20Set-UID%20Attack%20Basics/README.md)
+[Click here to return to the Home Repository](README.md)
 
 ## **Task 7: The LD PRELOAD Environment Variable and Set-UID Programs**
 
@@ -12,4 +12,4 @@ This task demonstrates potential vulnerabilities when using shared libraries or 
 
 Altogether, these outcomes imply that if the program is Set-UID and dynamically linked, any user may be able to influence or trigger the dynamically linked behavior.
 
-[Click here to return to the Home Repository](https://github.com/nicohaines/Cybersecurity-Home-Lab/blob/6c40208dbff8b486b290dc279e0788ebb6142c7a/Environment%20Variable%20and%20Set-UID%20Attack%20Basics/README.md)
+[Click here to return to the Home Repository](README.md)

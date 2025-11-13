@@ -1,6 +1,6 @@
 ## <h1>**Set-UID**</h1>
 
-[Click here to return to the Home Repository](https://github.com/nicohaines/Cybersecurity-Home-Lab/blob/6c40208dbff8b486b290dc279e0788ebb6142c7a/Environment%20Variable%20and%20Set-UID%20Attack%20Basics/README.md)
+[Click here to return to the Home Repository](README.md)
 
 ## **Task 5: Environment Variable and Set-UID Programs**
 
@@ -28,4 +28,4 @@ You can get system(“ls”) to run properly while using the path env as opposed
 
 
 
-[Click here to return to the Home Repository](https://github.com/nicohaines/Cybersecurity-Home-Lab/blob/6c40208dbff8b486b290dc279e0788ebb6142c7a/Environment%20Variable%20and%20Set-UID%20Attack%20Basics/README.md)
+[Click here to return to the Home Repository](README.md)

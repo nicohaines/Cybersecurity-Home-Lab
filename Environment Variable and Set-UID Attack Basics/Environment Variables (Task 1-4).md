@@ -1,6 +1,6 @@
 ## <h1>**Environment Variables**</h2>
 
-[Click here to return to the Home Repository](https://github.com/nicohaines/Cybersecurity-Home-Lab/blob/6c40208dbff8b486b290dc279e0788ebb6142c7a/Environment%20Variable%20and%20Set-UID%20Attack%20Basics/README.md)
+[Click here to return to the Home Repository](README.md)
 
 ## **Task 1: Manipulating Environment Variables**
 
@@ -63,4 +63,4 @@ In this task, you can see the flaw of the system() command over execve, where th
 ![](Screenshots/12.png)...
 ![](Screenshots/13.png)
 
-[Click here to return to the Home Repository](https://github.com/nicohaines/Cybersecurity-Home-Lab/blob/6c40208dbff8b486b290dc279e0788ebb6142c7a/Environment%20Variable%20and%20Set-UID%20Attack%20Basics/README.md)
+[Click here to return to the Home Repository](README.md)
