@@ -8,7 +8,7 @@ This is the starting point for my cybersecurity labs. So far, it includes 2 labs
 
 * *This repository demonstrates an understanding of Linux command-line fundamentals through tasks involving system updates/upgrades, user management, group management, and permissions including Access Control Lists (ACLs).*
 
-2\. [Environment Variable and Set-UID Attack Basics](https://github.com/nicohaines/Cybersecurity-Home-Lab/blob/26e14e6c90affbc979c1595e14b1c53793c64d33/Linux%20Command%20Line%20and%20Security%20Basics.md)
+2\. [Environment Variable and Set-UID Attack Basics](https://github.com/nicohaines/Cybersecurity-Home-Lab/blob/6c40208dbff8b486b290dc279e0788ebb6142c7a/Environment%20Variable%20and%20Set-UID%20Attack%20Basics/README.md)
 
 * *This repository demonstrates my understanding of various vulnerabilities, including those related to environment variables, Set-UID programs, capability leaking, dynamic loaders/linkers, and securely invoked external programs. Each example includes accompanying documentation with further explanations.*
 
