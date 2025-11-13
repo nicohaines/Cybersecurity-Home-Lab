@@ -13,11 +13,13 @@ Demonstrates the usage of the printenv and env commands, and how to set and unse
 
 When using fork() to duplicate a process, the child inherits all of the parent’s environment variables. In the example below I use diff to compare the environment variables of the original process (parent) and the duplicate (child). As you can see, there is no difference because the child inherited all of the parent’s variables.
 
-    Here, the child process printenv() is disabled (as a comment).  I compiled this program and directed the output into a txt file called "childenv.txt"
+    Here, the child process printenv() is disabled (as a comment).
+    I compiled this program and directed the output into a txt file called "childenv.txt"
 ![](Screenshots/3.png)
 ![](Screenshots/4.png)
 
-    I then disabled the child process and removed the comment for the parent process. I compiled the updated program and directed the output into another txt file called "parentenv.txt"
+    I then disabled the child process and removed the comment for the parent process. 
+    I compiled the updated program and directed the output into another txt file called "parentenv.txt"
 
 ![](Screenshots/5.png)
 ![](Screenshots/6.png)

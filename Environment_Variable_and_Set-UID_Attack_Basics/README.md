@@ -9,9 +9,9 @@ This repository demonstrates my understanding of various vulnerabilities, includ
 
 <u>**DIRECTORY:**</u>
 
-* [Environment Variables (Task 1-4)](1-4_Environment_Variables.md)
+* [Environment Variables (Tasks 1-4)](1-4_Environment_Variables.md)
 
-* [Set-UID (Task 5-6)](5-6_Set-UID.md)
+* [Set-UID (Tasks 5-6)](5-6_Set-UID.md)
 
 * [Dynamic Loader/Leaker(Task 7)](7_Dynamic_loader-leaker.md)
 

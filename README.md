@@ -14,9 +14,9 @@ This is the starting point for my cybersecurity labs. So far, it includes 2 labs
 
 * <u>***DIRECTORY:***</u>
 
-* [Environment Variables (Task 1-4)](Environment_Variable_and_Set-UID_Attack_Basics/1-4_Environment_Variables.md)
+* [Environment Variables (Tasks 1-4)](Environment_Variable_and_Set-UID_Attack_Basics/1-4_Environment_Variables.md)
 
-* [Set-UID (Task 5-6)](Environment_Variable_and_Set-UID_Attack_Basics/5-6_Set-UID.md)
+* [Set-UID (Tasks 5-6)](Environment_Variable_and_Set-UID_Attack_Basics/5-6_Set-UID.md)
 
 * [Dynamic Loader/Leaker(Task 7)](Environment_Variable_and_Set-UID_Attack_Basics/7_Dynamic_loader-leaker.md)
 
