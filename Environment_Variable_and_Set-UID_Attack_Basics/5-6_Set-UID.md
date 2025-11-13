@@ -20,12 +20,20 @@ When exporting environment variables as a normal user for a Set-UID program, the
 
 ## **Task 6: The PATH Environment Variable and Set-UID Programs**
 
-You can get system(“ls”) to run properly while using the path env as opposed to just using "ls" in the /bin/sh directory. Because of this vulnerability, the system() command allows a normal user to run the ls command using a relative path instead of the absolute path. This means that a user could create a malicious code that can identify the exact directory of this program.
+The following steps demonstrate a vulnerability with the system() method:
 
     For example, here is a program titled "systemls.c":
 
 ![](Screenshots/17.png)
 
+    The program is compiled and given Set-UID privileges.
 
+![](Screenshots/19.png)
+
+    The PATH Environment Variable is exported to match the relative path of the user:
+
+![](Screenshots/18.png)
+
+Given these steps, a user can implement an attack by pointing the PATH environment variable to a malicious directory or file. Because system() invokes the /bin/sh shell and the program is Set-UID, a normal user can cause the Set-UID program to run their malicious code.
 
 [Click here to return to the Home Repository](README.md)
