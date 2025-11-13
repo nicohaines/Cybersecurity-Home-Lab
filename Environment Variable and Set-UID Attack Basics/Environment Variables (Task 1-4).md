@@ -1,13 +1,15 @@
 ## <h1>**Environment Variables**</h2>
 
-## **Task 1:**
+[Click here to return to the Home Repository](https://github.com/nicohaines/Cybersecurity-Home-Lab/blob/6c40208dbff8b486b290dc279e0788ebb6142c7a/Environment%20Variable%20and%20Set-UID%20Attack%20Basics/README.md)
+
+## **Task 1: Manipulating Environment Variables**
 
 Demonstrates the usage of the printenv and env commands, and how to set and unset environment variables.
 
     Exporting and unsetting Environment variables:
 ![](Screenshots/2.png)
 
-## **Task 2:**
+## **Task 2: Passing Environment Variables from Parent Process to Child Process**
 
 When using fork() to duplicate a process, the child inherits all of the parentâ€™s environment variables. In the example below I use diff to compare the environment variables of the original process (parent) and the duplicate (child). As you can see, there is no difference because the child inherited all of the parentâ€™s variables.
 
@@ -15,7 +17,7 @@ When using fork() to duplicate a process, the child inherits all of the parentâ€
 ![](Screenshots/3.png)
 ![](Screenshots/4.png)
 
-    Then, I disabled the child process and removed the comment for the parent process. I compiled the updated program and directed the output into another txt file called "parentenv.txt"
+    I then disabled the child process and removed the comment for the parent process. I compiled the updated program and directed the output into another txt file called "parentenv.txt"
 
 ![](Screenshots/5.png)
 ![](Screenshots/6.png)
@@ -26,7 +28,7 @@ When using fork() to duplicate a process, the child inherits all of the parentâ€
 
     the output returns blank, meaning no differences.
 
-## **Task 3:**
+## **Task 3: Environment Variables and execve()**
 
 This task shows two examples of process environment variable lists. In the first, the third argument to execve() is NULL. When the third argument of execve() is NULL, the new process has no environment variables. When the third argument is the previously identified environ reference, the program lists all of its related environment variables.
 
@@ -38,7 +40,7 @@ This task shows two examples of process environment variable lists. In the first
 
 ![](Screenshots/8.png)
 
-<h1>VS</H1>
+<h2>VS</h2>
 
     "myenv.c", when the 3rd argument of execve is environ:
 
@@ -48,7 +50,7 @@ This task shows two examples of process environment variable lists. In the first
 
 ![](Screenshots/10.png)etc...
 
-## **Task 4:**
+## **Task 4: Environment Variables and system()**
 
 In this task, you can see the flaw of the system() command over execve, where the environment variables are added to the /bin/sh processes
 
@@ -60,3 +62,5 @@ In this task, you can see the flaw of the system() command over execve, where th
 
 ![](Screenshots/12.png)...
 ![](Screenshots/13.png)
+
+[Click here to return to the Home Repository](https://github.com/nicohaines/Cybersecurity-Home-Lab/blob/6c40208dbff8b486b290dc279e0788ebb6142c7a/Environment%20Variable%20and%20Set-UID%20Attack%20Basics/README.md)

@@ -1,5 +1,8 @@
-## **Securely Invoke External Programs**
-**Task 8**
+## <h1>**Securely Invoke External Programs**</h1>
+
+[Click here to return to the Home Repository](https://github.com/nicohaines/Cybersecurity-Home-Lab/blob/6c40208dbff8b486b290dc279e0788ebb6142c7a/Environment%20Variable%20and%20Set-UID%20Attack%20Basics/README.md)
+
+## **Task 8: Invoking External Programs Using system() versus execve()**
 
 In this task, I compare the uses of execve() and system().
 
@@ -10,3 +13,5 @@ In this task, I compare the uses of execve() and system().
     system() opens a shell, and because the program is Set-UID, a normal user can cause the shell to run with elevated privileges, which may allow access to a root shell if the program does not properly handle input or drop privileges.
 
 2. When using execve() instead, the vulnerability from system() should not occur because execve() does not invoke the shell in the same way. However, in my demonstration execve() also opened a root shell. I suspect there is still a way the code ends up invoking /bin/sh or otherwise allowing the shell to be executed, so I will research this further to identify the exact issue. Technically, execve() should be safer.
+
+[Click here to return to the Home Repository](https://github.com/nicohaines/Cybersecurity-Home-Lab/blob/6c40208dbff8b486b290dc279e0788ebb6142c7a/Environment%20Variable%20and%20Set-UID%20Attack%20Basics/README.md)
